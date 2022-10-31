@@ -1,0 +1,191 @@
+.dashBoardSites {
+  position: absolute;
+  top: 7.5rem;
+  left: 12rem;
+  right: 5.5rem;
+  bottom: 0rem;
+}
+
+.siteContainer {
+  margin: 1rem 5rem 0rem 5rem;
+}
+
+.marginContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.sites {
+  color: #3c4857;
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 41px;
+  border-bottom: 4px solid var(--dashBoardOrange);
+  width: 2.1rem;
+}
+
+.sites_1 {
+  color: #3c4857;
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 41px;
+  border-bottom: 4px solid var(--dashBoardOrange);
+  width: 2.1rem;
+}
+
+.searchBar {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.search {
+  position: relative;
+}
+
+.searchImage {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+
+.searchInput {
+  color: #a5a5a5;
+  font-family: 'Open Sans';
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 24px;
+  padding: 12px;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #0e85ff;
+  background-color: transparent;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  margin-top: 10rem;
+  position: relative;
+}
+
+.plus_1 {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+}
+
+.addSites {
+  color: #3c4857;
+  font-weight: 700;
+  font-size: 26px;
+  letter-spacing: 0;
+  line-height: 36px;
+  text-align: center;
+  padding: 5rem 8rem;
+}
+
+.addSiteContainer {
+  background-color: #f5f7fb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10rem;
+  width: 79%;
+}
+
+.media {
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 27px;
+  color: #3c4857;
+}
+
+.socialMedia {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+.mediaCount {
+  border: 1px solid #ffffff;
+  background: var(--color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  padding: 3px 4px;
+  color: white;
+  font-weight: 700;
+}
+
+.card {
+  margin-top: 1rem;
+}
+
+/*modal*/
+
+.modal {
+  /* width: 68vw; */
+  /* top: 78px; */
+  /* left: 10rem; */
+  /* right: 5.5rem; */
+  /* bottom: 0; */
+  /* position: fixed; */
+}
+
+.overlay {
+  background: rgba(49, 49, 49, 0.8);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  height: 100vh;
+}
+
+.modalContent {
+  background-color: white;
+  /* left: 41px; */
+  /* right: 1px; */
+  /* margin: 1rem 8rem; */
+  padding: 2rem;
+  border-radius: 10px;
+  z-index: 3;
+  position: relative;
+}
+
+.modelInfo {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.close-modalDesktop {
+  position: absolute;
+  top: -23px;
+  right: -31px;
+  background: transparent;
+  border: transparent;
+  /* width: 4px; */
+}
+
+.closeImgDesktop {
+  width: 3rem;
+}
+
+.closeImgMobile {
+  width: 2rem;
+  position: absolute;
+  top: -1.5rem;
+  left: 16px;
+}

@@ -1,0 +1,191 @@
+.dashBoardContainer {
+  height: 100vh;
+  margin: 0rem 5rem;
+}
+
+.sideBarMenu {
+  background: var(--commonColor);
+  position: fixed;
+  height: 100%;
+  top: 0;
+  z-index: 2;
+}
+
+.socialMediaMobile,
+.mobileHeader,
+.addButton,
+.plus_1,
+.close-modalMobile {
+  display: none;
+}
+
+.socialMediaDesktop,
+.close-modalDesktop {
+  display: block;
+}
+
+@media only screen and (max-width: 866px) {
+  .dashBoardContainer {
+    margin: 0rem;
+  }
+  .sideBarMenu {
+    left: 0;
+  }
+
+  .headerContainer {
+    left: 7rem;
+    right: 0rem;
+  }
+
+  .siteContainer {
+    margin: 1rem 2rem 0rem 9rem;
+  }
+
+  .dashBoardSites {
+    left: 0;
+    right: 0;
+  }
+
+  .modalContent {
+    left: 45px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .searchBar,
+  .socialMediaDesktop,
+  .sites,
+  .headerContainer,
+  .sideBarMenu,
+  .close-modalDesktop {
+    display: none;
+  }
+
+  .socialMediaMobile,
+  .mobileHeader,
+  .plus_1,
+  .close-modalMobile {
+    display: block;
+  }
+
+  .dashBoardContainer {
+    margin: 0px;
+  }
+
+  .dashBoardSites {
+    position: absolute;
+    top: 3.5rem;
+    left: 0;
+    right: 0;
+  }
+
+  .siteContainer {
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+  }
+
+  .socialMedia {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 3;
+    background-color: white;
+    padding: 1rem 2rem;
+    top: 45px;
+  }
+
+  .mobileMedia {
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+  }
+
+  .socialMediaLogo {
+    gap: 7rem;
+    padding: 1rem 2rem rem;
+  }
+
+  .wrapContainer {
+    justify-content: center;
+  }
+
+  .addButton {
+    display: block;
+    bottom: 1rem;
+    right: 1rem;
+  }
+
+  .modalContent {
+    background-color: white;
+    left: 0;
+    right: 0;
+    top: 42px;
+    border-radius: 0;
+    z-index: 3;
+    position: fixed;
+    bottom: 0;
+  }
+
+  .firstLine {
+    flex-direction: column;
+  }
+
+  .modalButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .close-modal {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  .addSites {
+    padding: 4rem 1rem;
+  }
+
+  .addSiteModal {
+    background: var(--commonColor);
+    color: white;
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+  }
+
+  .updateButton {
+    display: flex;
+    position: absolute;
+    right: 0;
+    left: 0;
+    justify-content: center;
+    padding: 1rem;
+    bottom: 0;
+    outline: none;
+    border: none;
+    background-color: var(--color);
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    cursor: pointer;
+  }
+
+  .modalText {
+    margin-left: 3rem;
+  }
+
+  .editButton {
+    font-size: 26px;
+    border-radius: -1px;
+    top: -2rem;
+  }
+}

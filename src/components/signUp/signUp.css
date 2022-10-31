@@ -1,0 +1,50 @@
+.signUpContainer {
+    padding: 2.8rem 3rem 1rem 3rem;
+    border-left: 1px solid #f5f7fb16;
+}
+
+.signUpText {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1.67px;
+    line-height: 27px;
+}
+
+.inputField_1 {
+    box-sizing: border-box;
+    border: 0.55px solid rgba(208, 208, 208, 0.5);
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    padding: 1em 1em;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin: 1rem 0rem;
+}
+
+.passwordPin_1 {
+    position: relative;
+}
+
+.eyeIcon_1 {
+    position: absolute;
+    top: 1.8rem;
+    right: 1rem;
+}
+
+.signUpButton {
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    border: none;
+    padding: 0.8em 2em;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #0e85ff;
+    margin: 1rem 0rem;
+}

@@ -1,0 +1,57 @@
+.container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.loginContainer {
+    display: flex;
+    flex-direction: row;
+    background: var(--loginBackground);
+    border-radius: 1.5rem;
+    box-shadow: 0 0.8rem 1.8rem 1rem rgba(0, 0, 0, 0.02);
+
+}
+
+.mobileLogo {
+    display: none;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .loginContainer {
+        flex-direction: column;
+        border-radius: 0px;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+
+    }
+
+    .leftContainer {
+        min-width: 0px;
+    }
+
+    .mobileLogo {
+        display: block;
+    }
+
+    .rightContainer {
+        display: none;
+    }
+
+    .signUpText {
+        display: none;
+    }
+
+    .signInText {
+        display: none;
+    }
+
+
+}

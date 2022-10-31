@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Neucha&family=Open+Sans:wght@300&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+:root {
+  --loginBackground: linear-gradient(180deg, #20bbff 0%, #0e85ff 100%);
+  --commonColor: #0e85ff 100%;
+  --dashBoardOrange: #ffa043;
+  --color: #0e85ff;
+}

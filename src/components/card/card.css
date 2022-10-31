@@ -1,0 +1,66 @@
+.wrapContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 16px;
+  position: relative;
+  justify-content: space-evenly;
+  margin-top: 7rem;
+}
+
+.cardContainer {
+  border-radius: 14px;
+  background-color: #ffffff;
+  box-shadow: 0 8px 18px 10px rgb(0 0 0 / 4%);
+}
+
+.socialMediaLogo {
+  display: flex;
+  flex-direction: row;
+  background-color: transparent;
+  gap: 5rem;
+  padding: 10px 20px;
+}
+
+.copy {
+  display: flex;
+  flex-direction: row;
+  gap: 7px;
+  margin-top: 7px;
+  cursor: pointer;
+}
+
+.socialMediaName {
+  color: #0e85ff;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 27px;
+  text-align: right;
+}
+
+.copyText {
+  color: #0e85ff;
+  font-size: 12.6px;
+  letter-spacing: 0;
+  line-height: 17px;
+}
+
+.socialMediaLink {
+  color: #3c4857;
+  font-family: 'Open Sans';
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  line-height: 22px;
+  text-align: center;
+}
+
+.linkContainer {
+  background-color: #f5f7fb65;
+  padding: 10px;
+}
+
+.addButton {
+  position: fixed;
+}
